@@ -11,8 +11,8 @@ project
 │   └── repository.go   // Интерфейс репозитория для работы с базой данных
 ├── infrastructure
 │   └── persistence.go  // Реализация репозитория с использованием GORM
-└── interfaces
-    ├── handlers.go     // Обработчики HTTP запросов с использованием Gin
-    └── main.go         // Основной файл приложения
+├── interfaces
+│   └── handlers.go     // Обработчики HTTP запросов с использованием Gin
+└── main.go         // Основной файл приложения
 
 ```
